@@ -1,0 +1,36 @@
+*
+{
+
+  user-select: none;
+}
+
+#forms
+{
+
+  width:fit-content;
+}
+
+#locations
+{
+
+  width: fit-content;
+}
+
+button
+{
+
+  margin-top: 10px;
+  width: 60px;
+}
+
+#button-reset
+{
+
+  margin-left: 5px;
+}
+
+#locations
+{
+
+  margin-top: 10px;
+}

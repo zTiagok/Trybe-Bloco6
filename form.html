@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Contest</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+  <h1>Form Filler</h1>
+
+  <form action="" method="get">
+
+    <fieldset id="forms">
+      <label for="input-name"> Name: 
+        <input type="text" name="inputName" id="input-name" required minlength="10" maxlength="40">
+      </label>
+
+      <br>
+
+      <label for="input-email"> Email:
+        <input type="email" name="inputEmail" id="input-email" required>
+      </label>
+
+      <fieldset id="locations">
+
+        <legend>Location</legend>
+
+        <label for="input-location-city">
+          <input type="radio" name="inputLocation" value="city" id="input-location-city" required> City
+        </label>
+
+        <label for="input-location-field">
+          <input type="radio" name="inputLocation" value="field" id="input-location-field"> Field
+        </label>
+
+        <label for="input-location-beach">
+          <input type="radio" name="inputLocation" value="beach" id="input-location-beach"> Beach
+        </label>
+
+        <label for="input-location-mountain">
+          <input type="radio" name="inputLocation" value="mountain" id="input-location-mountain"> Moutain
+        </label>
+      </fieldset>
+
+      <br>
+
+      <label for="text-whyme"> Why should you win this contest? <br>
+        <textarea name="inputWhy" id="text-whyme" cols="30" rows="10" maxlength="500"></textarea>
+      </label>
+    
+      <br><br>
+
+      <label for="input-date"> Best Date to Trip:
+        <input type="date" name="inputDate" id="input-date">
+      </label>
+
+      <br><br>
+
+      <input type="checkbox" name="inputCheckbox1" id="input-checkbox1">
+      <label for="input-checkbox1"> Would you like to receive others oportunities in your email? </label>
+
+      <br>
+
+      <input type="checkbox" name="inputCheckbox2" id="input-checkbox2" required>
+      <label for="input-checkbox2"> "I accept that my images during the trip can be used in others promotions disclosures" </label>
+    </fieldset>
+
+    <button type="submit" id="button-submit">Submit</button>
+    <button type="reset" id="button-reset">Reset</button>
+
+
+  </form>
+</body>
+</html>
